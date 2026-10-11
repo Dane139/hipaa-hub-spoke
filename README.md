@@ -9,7 +9,7 @@ Infrastructure-as-code build of a hub-and-spoke network for a healthcare workloa
 | | |
 |---|---|
 | **Build time** | 4–5 hours first time, ~20 minutes to redeploy |
-| **Cost while running** | ~$8–15/day. Azure Firewall (~$1.25/hr) is the main driver, so destroy it when you're not using it |
+| **Cost while running** | $8–15/day. Azure Firewall (~$1.25/hr) is the main driver, so destroy it when you're not using it |
 | **Terraform** | v1.5+ with `azurerm ~> 4.0` |
 | **Difficulty** | Intermediate–Advanced |
 
